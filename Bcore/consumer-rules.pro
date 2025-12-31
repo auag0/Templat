@@ -26,3 +26,6 @@
 -keep class android.** {*; }
 -keep class com.android.** {*; }
 
+# Keep Xposed APIs
+-keep class de.robv.android.xposed.** { *; }
+-keep class android.** { *; }
